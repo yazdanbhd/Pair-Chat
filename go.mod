@@ -1,5 +1,7 @@
-module github.com/yazdanbhd/Pair-Chat
+module pairchat
 
 go 1.24.5
 
-require golang.org/x/net v0.42.0 // indirect
+require golang.org/x/net v0.42.0
+
+require github.com/google/uuid v1.6.0 // indirect
